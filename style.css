@@ -1,0 +1,425 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.ul1{
+    display:flex ;
+    flex-direction: row;
+    gap:30px;
+    list-style-type: none;
+    padding: 1rem;
+    border-bottom: 1px solid black;
+    flex-wrap: wrap;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#space{
+    flex-grow:1 ;
+    color: rgb(255, 0, 0);
+}
+
+.sign{
+    border: 1px solid green;
+    padding: 8px;
+    background-color: green;
+    border-radius: 20px;
+    color: white;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.sign:active{
+    background-color: red;
+}
+.sign:hover{
+    background-color: aqua;
+}
+.learn1:hover{
+    background-color: gainsboro;
+    color: black;
+}
+.link1:hover{
+    color: gray;
+}
+
+
+.but1:hover{
+    background-color: bisque;
+    color: black;
+}
+
+.ul2{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+    color: white;
+    gap:40px;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-bottom: 1px solid white;
+}
+@media(max-width:450px){
+    .ul2{display: none;}
+}
+
+h1,.para1{
+    text-align: center;   
+}
+.button1{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    height: 60px;   
+}
+.search{
+    width:300px;
+    border: 0.8px solid rgb(255, 255, 255);
+    border-radius: 25px 0px 0px 25px;
+    font-size: 0.9rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+
+    
+}
+.search::placeholder{
+    padding-left: 1rem;
+    font-weight: 600;
+}
+.button{
+    width: 80px;
+    border-radius: 0px 25px 25px 0px;
+    color: white;
+    border: 0.8px solid rgb(29, 155, 29);
+    background-color: rgb(29, 155, 29);
+}
+.link1{
+    text-align: center;
+    display: block;
+    color: white;
+    font-size: 1.8rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    padding-bottom: 8%;
+}
+.artical1{
+    background-color: rgb(0, 0, 0);
+    
+}
+.header{
+    padding-top: 10%;
+    font-size: 4rem;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.para1{
+    padding: 2rem;
+    font-size: 2rem;
+    color: rosybrown;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.art2{
+    background-color:#D9EeE1;
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    justify-content: center;
+    max-height: 1050px;
+    min-height: 500px;
+}
+.header2{
+    font-size: 4rem;
+    padding-top: 5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.para4,.learn,.video,.ref,.certified{
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.learn,.video,.ref,.certified{
+    display: block;
+    padding: 10px;
+    margin:15px 30%;
+    border-radius: 25px;
+    border: 0.1px solid black;
+}
+.boxx1{
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    margin: 30px;
+    background-color:#e7e9ed;
+    border-radius: 5px;
+
+}
+.example1{
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+   
+}
+.but1{
+    padding: 1rem;
+    padding-left: 25px;
+    border: 1px solid black;
+    width: 150px;
+    margin: 1.5rem;
+    font-weight: 800;
+    background-color:#04aa6d; 
+    color: white;
+    border-radius: 25px;
+}
+.code1{
+    border: 1px solid black;
+    width: 80%;
+    height:60%;
+    margin-left: 10%;
+    border-left: 5px solid green;
+    background-color: white;
+}
+.art3{
+    background-color:rgb(242, 250, 136);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    max-height: 1050px;
+    min-height: 500px;
+}
+.header3{
+
+    font-size: 4rem;
+    padding-top: 5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.header4{
+    color: white;
+    font-size: 4rem;
+    padding-top: 5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.par{
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.para5,.learn1,.video1,.ref1,.certified1{
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.learn1,.video1,.ref1,.certified1{
+    display: block;
+    padding: 10px;
+    margin:15px 30%;
+    border-radius: 25px;
+    border: 0.1px solid black;
+}
+.boxx2{
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    margin: 10px;
+    background-color:#e7e9ed;
+    border-radius: 5px;
+
+    margin: 30px;
+
+}
+.example2{
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+   
+}
+.but2{
+    padding: 1rem;
+    padding-left: 25px;
+    border: 1px solid black;
+    width: 150px;
+    margin: 1.5rem;
+    font-weight: 800;
+    background-color:#04aa6d; 
+    color: white;
+    border-radius: 25px;
+}
+.code2{
+    border: 1px solid black;
+    width: 80%;
+    height:60%;
+    margin-left: 10%;
+    border-left: 5px solid green;
+    background-color: white;
+}
+.sec1{
+    background-color: rgb(57, 54, 87);
+    padding-top: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    flex-grow: 1;
+}
+#box{
+    border: 0.1px black solid;
+    padding: 10px;
+    width: 45%;
+    height: 250px;
+}
+.header4,.header5,.header6,.header7{
+    padding-top: 1.8rem;
+}
+.button2{
+    text-align: center;
+    display: block;
+    font-size: 1rem;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 25px;
+    color: white;
+    font-weight: 600;
+    background-color: rgb(46, 43, 59);
+
+}
+h4{
+text-align: center;
+font-size: 3rem;
+}
+#par{
+    text-align: center;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 800;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(34, 33, 33);
+}
+.sec2{
+    background-color: rgb(57, 54, 87) ;
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+}
+.c{
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+    width: 40%;
+    height: 120px;
+    text-align: center;
+    font-size: 4rem;
+}
+.sec3{
+    padding-top: 1%;
+    background-color: rgb(57, 54, 87) ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:20px;
+}
+.boxing{
+    border: 1px solid black;
+    width: 300px;
+    text-align: center;
+    padding: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    font-size: 1.8rem;
+}
+@media(max-width:465px){
+    .boxx1,.boxx2{
+        display: none;
+    }
+}
+@media(max-width:645px){
+    #box{
+        width: 95%;
+    }
+}
+@media(max-width:331px){
+    .learn,.video,.ref,.certified{
+        width: 60%;
+        margin: 15px auto;
+    }
+    .learn1,.video1,.ref1,.certified1{
+        width: 60%;
+        margin: 15px auto;
+    }
+    .search{
+        width: 70%;
+    }
+    .boxing{
+        width: 180px;
+        
+    }
+
+}
+@media(min-width:590px){
+    .menu{
+        display: none;
+    }
+}
+@media(max-width:590px){
+    .tutor,.Exercies,.Service{
+        display: none;
+    }
+}
+@media(max-width:260px){
+    .header,.para1,.link1{
+        font-size: 2em;
+    }
+    .artical1{
+        width: 100%;
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
